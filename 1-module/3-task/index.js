@@ -1,7 +1,9 @@
-function usFirst(str) {
-    let firstUpper = str[0].toUpperCase() + str.slice(1);
-    console.log(firstUpper);
-    return `${firstUpper}`;
-};
 
-usFirst('wri');
+function ucFirst(str) {
+  let firstLetter = str.charAt(0);
+  let firstLetterUpperCase = firstLetter.toUpperCase();
+  let otherLetters = str.slice(1);
+
+  return `${firstLetterUpperCase}${otherLetters}`;
+}
+
