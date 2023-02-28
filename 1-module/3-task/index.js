@@ -1,3 +1,4 @@
+
 function ucFirst(str) {
   let firstLetter = str.charAt(0);
   let firstLetterUpperCase = firstLetter.toUpperCase();
@@ -5,3 +6,4 @@ function ucFirst(str) {
 
   return `${firstLetterUpperCase}${otherLetters}`;
 }
+
